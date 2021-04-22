@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+}
+
+.bg{
+    height: 101vh;
+    width: 90%;
+    position: relative;
+    top: -15px;
+    left:-2px;
+}
+
+.obj1{
+    position: absolute;
+    left: 100px;
+    top: 145px;
+    width:45%;
+}
+
+.logo{
+    position: absolute;
+    left:90px;
+    top:5%;
+    width: 15%;
+}
+
+.header{
+    position: absolute;
+    top: 150px;
+    left: 55%;
+    line-height: 40px;
+    color: ivory;
+    font-family:'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.caption{
+    position: absolute;
+    top: 250px;
+    left: 55%;
+    color: ivory;
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.register{
+    position:absolute;
+    top: 345px;
+    left: 55%;
+    padding:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: none;
+    color:hsl(257, 40%, 47%);
+}
+
+.register:hover{
+    color: ivory;
+    background-color: hsl(300, 69%, 78%);
+    cursor: pointer;
+}
+
+.fab{
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: ivory;
+    padding: 8px;
+    color: ivory;
+}
+
+.fa-facebook-f{
+    padding-left:11px;
+    padding-right:11px;
+    position: absolute;
+    top:90%;
+    left:82%;
+}
+
+.fa-twitter{
+    position: absolute;
+    top:90%;
+    left:85%;
+}
+
+.fa-instagram{
+    position: absolute;
+    top:90%;
+    left:88%;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.fab:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
